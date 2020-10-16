@@ -1,8 +1,7 @@
-pragma solidity ^0.4.23;
+pragma solidity >=0.4.22 <0.7.0;
 
 contract IPFSInbox {
 
-    // Grabs the name of the resources based on address
     mapping (address => string) ipfsInbox;
 
     // Events
